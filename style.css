@@ -1,0 +1,117 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./world.svg");
+    width: 100%;
+
+    /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
+    /* background-image: linear-gradient(to right, #434343 0%, black 100%); */
+    /* background-image: url("./world.svg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.wrapper {
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+    background-image: linear-gradient(135deg, #FDEB71 10%, #F8D800 100%);
+    background-blend-mode: screen;
+
+    width: 40%;
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    -webkit-box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
+    box-shadow: 30px 30px 35px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.searchInputCont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.searchInputCont button {
+    padding: 0.5rem 1rem;
+    margin:1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: large;
+}
+
+.searchInputCont input {
+
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: large;
+}
+
+.weatherOutputDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tempDataDiv h4 {
+    margin: 0;
+}
+
+.tempDataDiv {
+    font-size: x-large;
+    text-align: center;
+}
+
+.cityName {
+    padding: 1rem;
+}
+
+.cityName h3 {
+    margin: 0;
+
+
+    font-size: x-large;
+}
+
+
+
+.clouds {
+    background-image: url("https://img.freepik.com/free-photo/clear-air-fly-fantastic-travel_1232-3824.jpg?t=st=1652619067~exp=1652619667~hmac=7ebf919b63ee93c0c6449939ae39dc6aa0c6a3a5c694aa082204a8522fc56333&w=1480");
+}
+
+.haze {
+    background-image: url("https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111168.jpg?t=st=1652619788~exp=1652620388~hmac=a37d4d8cb342cffe1c695874f8fd3946e4e71e26f746ae78b7f6574a14ced80d&w=1060");
+}
+
+.rain {
+    background-image: url("https://img.freepik.com/free-vector/nature-raining-scene_1308-22369.jpg?t=st=1652610579~exp=1652611179~hmac=2f0e3c654052064f22d44b40b00beae9a9999984175aff8fce230bb923055c70&w=1060");
+}
+
+.clear {
+    background-image: url("https://img.freepik.com/free-photo/cloud-blue-sky_74190-4080.jpg?t=st=1652620381~exp=1652620981~hmac=f61f570854173c14024d0fae50331e57885b914578b4fb9da1cb8ad417933bc2&w=1060");
+}
