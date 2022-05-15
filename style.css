@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("./world.svg");
+    background-image: url("./assets//world.svg");
     width: 100%;
 
     /* background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%); */
@@ -101,17 +101,17 @@ body {
 
 
 .clouds {
-    background-image: url("https://img.freepik.com/free-photo/clear-air-fly-fantastic-travel_1232-3824.jpg?t=st=1652619067~exp=1652619667~hmac=7ebf919b63ee93c0c6449939ae39dc6aa0c6a3a5c694aa082204a8522fc56333&w=1480");
+    background-image: url("./assets/cloudy.jpg");
 }
 
 .haze {
-    background-image: url("https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111168.jpg?t=st=1652619788~exp=1652620388~hmac=a37d4d8cb342cffe1c695874f8fd3946e4e71e26f746ae78b7f6574a14ced80d&w=1060");
+    background-image: url("./assets/haze.jpg");
 }
 
 .rain {
-    background-image: url("https://img.freepik.com/free-vector/nature-raining-scene_1308-22369.jpg?t=st=1652610579~exp=1652611179~hmac=2f0e3c654052064f22d44b40b00beae9a9999984175aff8fce230bb923055c70&w=1060");
+    background-image: url("./assets/rain.jpg");
 }
 
 .clear {
-    background-image: url("https://img.freepik.com/free-photo/cloud-blue-sky_74190-4080.jpg?t=st=1652620381~exp=1652620981~hmac=f61f570854173c14024d0fae50331e57885b914578b4fb9da1cb8ad417933bc2&w=1060");
+    background-image: url("./assets/clear.jpg");
 }
